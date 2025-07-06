@@ -1,6 +1,6 @@
 package com.tlj.mianshihou.job.cycle;
 
-import com.tlj.mianshihou.esdao.PostEsDao;
+import com.tlj.mianshihou.model.entity.esdao.PostEsDao;
 import com.tlj.mianshihou.mapper.PostMapper;
 import com.tlj.mianshihou.model.dto.post.PostEsDTO;
 import com.tlj.mianshihou.model.entity.Post;
@@ -16,8 +16,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 /**
  * 增量同步帖子到 es
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 // todo 取消注释开启任务
 //@Component

@@ -1,4 +1,4 @@
-package com.yupi.mianshihou.service;
+package com.tlj.mianshihou.service;
 
 import com.tlj.mianshihou.model.entity.User;
 import javax.annotation.Resource;
@@ -12,8 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * 帖子点赞服务测试
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @SpringBootTest
 class PostThumbServiceTest {
