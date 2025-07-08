@@ -75,7 +75,6 @@ public class QuestionBankQuestionServiceImpl extends ServiceImpl<QuestionBankQue
 
     /**
      * 获取查询条件
-     *
      * @param questionBankQuestionQueryRequest
      * @return
      */
