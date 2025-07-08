@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.tlj.mianshihou.model.dto.question.QuestionQueryRequest;
 import com.tlj.mianshihou.model.entity.Question;
 import com.tlj.mianshihou.model.vo.QuestionVO;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -49,4 +50,7 @@ public interface QuestionService extends IService<Question> {
      * @return
      */
     Page<QuestionVO> getQuestionVOPage(Page<Question> questionPage, HttpServletRequest request);
+
+    //分页获取题目（带题库）
+    Page<Question> listQuestionByPage(@RequestBody QuestionQueryRequest questionQueryRequest);
 }
